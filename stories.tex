@@ -1,0 +1,27 @@
+\documentclass[a5paper, landscape, 38pt]{scrartcl}%
+%
+\usepackage[margin=2cm]{geometry}%
+\usepackage[T1]{fontenc}%
+\usepackage{lmodern}%
+\renewcommand*\familydefault{\sfdefault}%
+%
+\newcommand{\userstory}[3]{%
+\topskip0pt%
+\vspace*{\fill}%
+\noindent\textbf{As a} #1,\\%
+\textbf{I want} #2\\%
+\textbf{so that} #3.%
+\vspace*{\fill}%
+\newpage%
+}%
+%
+\pagestyle{empty}%
+%
+\begin{document}%
+    \userstory{musician}{my sheet music stand to have integrated clamps}{my sheet music does not fall off}%
+    \userstory{boulderer}{the walls to be sticky}{I don't fall off so easily}%
+    \userstory{fairy}{a tree house}{I can invite my friends over}%
+    \userstory{beaver}{trees along the river}{I have enough material to build a dam}%
+    \userstory{carpenter}{to have a quick delivery of wood}{I can fulfill all my projects without waiting for material}%
+    \userstory{bus driver}{a massage chair}{I can relax inbetween trips}%
+\end{document}%
